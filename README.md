@@ -1,14 +1,26 @@
-# To-Do List App
+# To-Do List Application (OOP & Git)
 This is a simple To-Do List application built with Python.
 
-## How to Run
-1. Ensure you have Python installed.
-2. Run the command: python todo_app.py
+## 1. คำอธิบายโปรเจกต์ (Project Description)
+แอปพลิเคชันสำหรับจัดการรายการงานที่ต้องทำ (To-Do List) พัฒนาด้วยภาษา Python โดยใช้หลักการเขียนโปรแกรมเชิงวัตถุ (OOP) เพื่อให้โค้ดมีความเป็นระเบียบและง่ายต่อการขยายผล โปรแกรมนี้ใช้คลาส `Task` ในการแทนข้อมูลแต่ละรายการ และใช้ไฟล์ JSON ในการจัดเก็บข้อมูลเพื่อให้ผู้ใช้งานสามารถบันทึกและโหลดข้อมูลกลับมาใช้ใหม่ได้ตลอดเวลา
 
-## Features
-- Add Task
-- View Tasks
-- Save/Load from JSON
+## 2. วิธีการรันโปรแกรม (How to Run)
+1. ตรวจสอบว่าเครื่องของคุณติดตั้ง Python 3 เรียบร้อยแล้ว
+2. ดาวน์โหลดไฟล์ `todo_app.py` และ `my_tasks.json` มาไว้ในโฟลเดอร์เดียวกัน
+3. เปิด Terminal หรือ Command Prompt แล้วเข้าไปยังโฟลเดอร์นั้น
+4. รันโปรแกรมด้วยคำสั่ง:
+   ```bash
+   python todo_app.py
 
-## Git Usage
-This project uses Git for version control, demonstrating commits, branches, and merges.
+
+## ตัวอย่าง Input และ Output (Example Usage)
+1. Add Task | 2. View Tasks | 3. Exit
+Select: 2
+1. Finish my homework [Wait]
+   
+## อธิบายการใช้ Git (Git Version Control)
+Commits: มีการทำ Commit มากกว่า 10 ครั้ง โดยระบุข้อความ (Commit Message) ที่ชัดเจนและสื่อความหมายถึงสิ่งที่ทำในแต่ละขั้นตอน เช่น Feat:, Fix:, Docs:
+
+Branching: มีการสร้าง Branch ชื่อ add-readme เพื่อแยกการเขียนเอกสารประกอบโปรเจกต์ออกจากสายงานหลัก (master) เพื่อลดความเสี่ยงที่จะกระทบกับโค้ดที่ทำงานได้จริง
+
+Merging: หลังจากตรวจสอบความเรียบร้อยใน Branch ย่อยแล้ว ได้ทำการ Merge งานกลับเข้าสู่สายหลักเพื่อให้ GitHub Repository มีข้อมูลที่สมบูรณ์
