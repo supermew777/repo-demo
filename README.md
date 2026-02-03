@@ -14,7 +14,14 @@ This is a simple To-Do List application built with Python.
 
 
 ## ตัวอย่าง Input และ Output (Example Usage)
+ตัวอย่างการเพิ่มงาน (Input):
+
+เลือกเมนู: 1
+
+พิมพ์ชื่อพิมพ์งาน: Finish my homework
+ตัวอย่างการแสดงผล (Output):
 1. Add Task | 2. View Tasks | 3. Exit
+
 Select: 2
 1. Finish my homework [Wait]
    
